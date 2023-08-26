@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Om's Portfolio </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Om</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hi!, I'm</span>
+                    <h1 class="home__name">Om</h1>
+                    <h3 class="home__education">Machine Learning Enthusiast</h3>
+
+                    <div class="home__button">
+                        <a download="" href="assets/pdf/hailee-Cv.pdf" class="button button--ghost">
+                            Download Resume
+                        </a>
+
+                        <a href="#about" class="button">About</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/about.jpg" alt="" class="home__img">
+                </div>
+                <div class="home__social">
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class='bx bxl-dribbble'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">1 End-to-End Project</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Hi, I'm Om Gholap, a 4th year B.Tech Data Science student at NIIT University. With a deep-rooted passion for all things data, I'm on a journey to transform into a successful Data Scientist and Machine Learning Developer. The world of data-driven insights and innovative algorithms has captured my imagination, driving me to explore and contribute to this dynamic field.
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My Abilities</span>
+            <h2 class="section__title">My Experience</h2>
+
+            <div class="skills__container container">
+                <div class="skills__content">
+                    <h3 class="skills__title">Data Scientist</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Machine Learning</h3>
+                                    <span class="skills__level">Developing Models </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Neural Networks</h3>
+                                    <span class="skills__level">Image Classification </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python, R, SQL</h3>
+                                    <span class="skills__level">Language</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Pandas, Numpy</h3>
+                                    <span class="skills__level">Python libraries for Data Manupulation</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Data Visualisation</h3>
+                                    <span class="skills__level">Tableu, Seaborn, Matplotlib</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Research</h3>
+                                    <span class="skills__level">Working on Research and Development</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="skills__content">
+                    <h3 class="skills__title">Backend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Node JS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Mongo DB</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div> -->
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="qualification section">
+            <h2 class="section__title">Qualifications</h2>
+            <span class="section__subtitle">Academic and Professional Career</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+                </div>
+                <div class="qualification__sections">
+                    <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--==================== QUALIFICATION  1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <span class="qualification__degree">Minor Degree</span>
+                                <h3 class="qualification__tittle">Business Analytics</h3>
+                                <span class="qualification__subtitle">NIIT University</span>
+                                <div class="qualification__calendar">
+                                    2021 - 2024
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION  2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <span class="qualification__degree">B. Tech Data Science</span>
+                                <h3 class="qualification__tittle"> Major in Data science</h3>
+                                <span class="qualification__subtitle">NIIT University</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 - 2024
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION  3 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <span class="qualification__degree">Higher Secondary</span>
+                                <h3 class="qualification__tittle">Science</h3>
+                                <span class="qualification__subtitle">D.Y Patil Mumbai</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2018 - 2020
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION  4 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <span class="qualification__degree">B. Tech Data Science</span>
+                                <h3 class="qualification__tittle"> Major in Data science</h3>
+                                <span class="qualification__subtitle">NIIT University</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 - 2024
+                                </div>
+                            </div>
+                            
+
+                        </div>
+
+        </section>
+
+        <section class="services section">
+            <span class="section__subtitle">My Projects</span>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Leaf disease Detection using Machine Learning</h3>
+                        <img src="assets\img\plant.jpg"
+                        alt="">
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Leaf diseases classifcation</h3>
+
+                            <p class="services__modal-description">
+                                A detailed machine learning framework that is an end to edn prodcut connected with react
+                                that
+                                classifies whether a leaf is diseased through the methods of image classification.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I develop the user interfaces.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Image classifcation using OpenCV
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Trained the model using tensorflow
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Created the API using Nodejs
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        <a href="https://github.com/OmGholap/Leaf-Disease-Classification" target="_blank">Click link for github</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+
+                    <h3 class="services__title">Data Extraction <br> and Semantic Analysis</h3>
+                    <img src="assets\img\data extraction project.jpg"
+                    alt="">
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Data Extraction</h3>
+
+                            <p class="services__modal-description">
+                                This Python script scrapes web articles, analyzes their linguistic attributes, and stores the results in an Excel file. The scraping extracts article content from URLs and saves it, while analysis calculates features such as positive/negative word scores, sentence length, complex word percentage, and more.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Extract links from a Csv File.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Use library and open the links.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Collect Data from links and save to notepad.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Perform Semantic Analysis.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Save the result to a Excel.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        <a href="https://github.com/OmGholap/Data_Extraction_and_NLP" target="_blank">Click link for github</a>
+                                    </p>
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+
+                    <h3 class="services__title">Iris Prediction using <br> Radom Forest Classifier</h3>
+                    <img src="assets\img\iris prediction.jpg"
+                    alt="">
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Data Extraction</h3>
+
+                            <p class="services__modal-description">
+                                A machine learning model, often a classifier like the Random Forest, is employed to predict iris species based on features like sepal length, width, petal length, and width. By analyzing these attributes, the model can accurately categorize iris flowers into their respective species, showcasing the power of predictive analytics.    
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Collect Iris Dataset and load into Pandas Library.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Perform Feature engineering and check for outliers and null values.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Model Selection and Training.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Model Evaluation.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Prediction.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        <a href="https://github.com/OmGholap/Iris-Detection" target="_blank">Click link for github</a>
+                                    </p>
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="services__card">
+                    <h3 class="services__title">Iris Prediction</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <!-- <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Visual Designing</h3>
+
+                            <p class="services__modal-description">
+                                I design and develop the consumer products with creative ability and
+                                hands-on approach which stisfies the customers' and markets' needs and trends.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I develop the user interfaces.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Web Page design and development.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I create the UX element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I position your company brand.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Create modern 3-D experiences.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div> -->
+
+                        
+
+
+
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <!--=============== WORK ===============-->
+        <!-- <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+                <span class=" work__item" data-filter='.web'>Web</span>
+                <span class=" work__item" data-filter='.movil'>Movil</span>
+                <span class=" work__item" data-filter='.design'>Design</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/work1.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Web Design</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/work2.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">App Movil</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/work3.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Brand Design</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/work4.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Web Design</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/work5.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">App Movil</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+            </div>
+        </section> -->
+
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <sapn class="section__subtitle">Get in touch</sapn>
+            <h3 class="section__title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">omsagargholap@gmail.com</span>
+
+                            <a href="mailto:example@domain.com" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+91 9594931575</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+919594931575&text=Hey there!" target="_blank"
+                                class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-twitter contact__card-icon'></i>
+                            <h3 class="contact__card-title">Twitter</h3>
+                            <span class="contact__card-data">Om Gholap</span>
+
+                            <a href="https://twitter.com/OmGholap" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="contact__content">
+                    <h3 class="contact__title contact__title-form">Write Me your Message</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="Enter name" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="text" placeholder="Enter email" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Message</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your Message"
+                                class="contact__form-input "></textarea>
+                        </div>
+
+
+                        <button class="button">
+                            Send Message
+                        </button>
+                    </form>
+
+                </div> -->
+
+                <div class="contact__content">
+                    <!-- <h3 class="contact__title contact__title-info">Talk to me</h3> -->
+                    <div class="contact__info">
+                        <!-- Replace bx-mail-send icon with Font Awesome GitHub icon -->
+                            <div class="contact__card">
+                                <i class='bx bxl-github contact__card-icon'></i>
+                                <h3 class="contact__card-title">GitHub</h3>
+                                <span class="contact__card-data">OmGholap</span>
+                                <a href="https://github.com/OmGholap" target="_blank" class="contact__button">
+                                    Check GitHub Out <i class="bx bx-right-arrow contact__button-icon"></i>
+                                </a>
+                            </div>
+
+
+                        <div class="contact__card">
+                            <i class='bx bxl-linkedin contact__card-icon'></i>
+                            <h3 class="contact__card-title">Linkedin</h3>
+                            <span class="contact__card-data">Om Gholap</span>
+
+                            <a href="https://www.linkedin.com/in/omgholap/" target="_blank"
+                                class="contact__button">
+                                Let's Connect <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <!-- <div class="contact__card">
+                            <i class='bx bxl-twitter contact__card-icon'></i>
+                            <h3 class="contact__card-title">Twitter</h3>
+                            <span class="contact__card-data">Om Gholap</span>
+
+                            <a href="https://twitter.com/OmGholap" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+
+                
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Om</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2023 Om. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
