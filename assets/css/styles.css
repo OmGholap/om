@@ -59,6 +59,11 @@
     --smaller-font-size: 0.813rem;
   }
 }
+@media (max-width: 600px) {
+  .qualification__container {
+    text-align: center;  
+  }
+}
 
 /*=============== BASE ===============*/
 * {
@@ -233,14 +238,15 @@ body.light-theme {
 }
 
 
-.qualification__data{
+.qualification__data {
   display: grid;
   grid-template-columns: 1fr max-content 2fr;
   column-gap: 1rem;
-  margin-left: 210px;
-  
-
+  margin-left: auto; /* Adjust margin-left and margin-right to center the grid as needed */
+  margin-right: auto;
+  justify-items: left; /* Add this line to center-align the items */
 }
+
 
 .qualification__rounder{
   display: inline-block;
